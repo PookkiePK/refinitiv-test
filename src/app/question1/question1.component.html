@@ -1,0 +1,12 @@
+<div class="grid-container">
+    <div>
+        <input type="text" id="col1-number" name="col1-number" (keyup)="onKeyNumberInput($event)" />
+    </div>
+    <div style="min-width: 100px;">
+        <select id="col2-numType" name="col2-numType" (change)="onChangeCheck($event)">
+            <option value="isPrime">isPrime</option>
+            <option value="isFibonacci">isFibonacci</option>
+        </select>
+    </div>
+    <div class="">{{answer}}</div>
+</div>

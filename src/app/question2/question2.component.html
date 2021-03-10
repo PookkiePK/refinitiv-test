@@ -1,0 +1,18 @@
+<div class="grid-container">
+    <div>
+        <input type="text" id="inputSearch" name="inputSearch" (keyup)="filterData($event)" />
+    </div>
+    <div>
+        <thead>
+            <tr>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of dataArr">
+                <td>{{item}}</td>
+            </tr>
+        </tbody>
+    </div>
+
+</div>

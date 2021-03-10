@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .grid-container{
+        overflow-x: scroll;
+      }
+}
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px auto 300px;
+  }
